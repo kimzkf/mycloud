@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb5e472-0b59-420b-a0d2-df53ea5ee59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eu_client/src/main/java/com/example/eu_client/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eu_client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/com/demo/eureka/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu_client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eu_client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu_client/src/main/java/com/example/eu_client/EuClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eu_client/src/main/java/com/example/eu_client/EuClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eu_client/src/main/java/com/example/eu_client/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eu_client/src/main/java/com/example/eu_client/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu_client/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu_server/src/main/java/com/example/eu_server/EuServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eu_server/src/main/java/com/example/eu_server/EuServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu_server/src/main/java/com/example/eu_server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eu_server/src/main/java/com/example/eu_server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eu_server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eu_client/target/classes/com/example/eu_client/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eu_client/target/classes/com/example/eu_client/controller/OrderController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +142,7 @@
       <updated>1577808926220</updated>
       <workItem from="1577808940565" duration="26756000" />
       <workItem from="1577930833118" duration="5691000" />
-      <workItem from="1577940119168" duration="4788000" />
+      <workItem from="1577940119168" duration="5109000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1577931106475</created>
@@ -176,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577931106476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="加入密码">
+      <created>1577946085057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577946085058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="加入密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入密码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Notifications" timestamp="1577885078771">
@@ -247,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577933273725" />
-    <state x="372" y="3" key="CommitChangelistDialog2" timestamp="1577931103012">
+    <state x="372" y="3" key="CommitChangelistDialog2" timestamp="1577946081145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577931103012" />
+    <state x="372" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577946081145" />
     <state width="441" height="466" key="DebuggerActiveHint" timestamp="1577891507740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -267,38 +250,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="392" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577930854071" />
-    <state width="1493" height="189" key="GridCell.Tab.0.bottom" timestamp="1577945779271">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577945779271" />
-    <state width="1493" height="189" key="GridCell.Tab.0.center" timestamp="1577945779271">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577945779271" />
-    <state width="1493" height="189" key="GridCell.Tab.0.left" timestamp="1577945779271">
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577945779271" />
-    <state width="1493" height="189" key="GridCell.Tab.0.right" timestamp="1577945779271">
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577945779271" />
-    <state width="1493" height="189" key="GridCell.Tab.1.bottom" timestamp="1577945779272">
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.1.bottom" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577945779272" />
-    <state width="1493" height="189" key="GridCell.Tab.1.center" timestamp="1577945779271">
+    <state width="1493" height="237" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.1.center" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577945779271" />
-    <state width="1493" height="189" key="GridCell.Tab.1.left" timestamp="1577945779271">
+    <state width="1493" height="237" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.1.left" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577945779271" />
-    <state width="1493" height="189" key="GridCell.Tab.1.right" timestamp="1577945779272">
+    <state width="1493" height="237" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
+    <state width="1493" height="237" key="GridCell.Tab.1.right" timestamp="1577946375103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577945779272" />
+    <state width="1493" height="237" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577946375103" />
     <state width="1493" height="237" key="GridCell.Tab.2.bottom" timestamp="1577894539542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -323,10 +306,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577942402608" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1577931187365">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1577946090041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577931187365" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577946090041" />
     <state x="403" y="147" key="VcsDiffUtil.ChangesDialog" timestamp="1577946046649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -354,7 +337,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/eu_client/src/main/java/com/example/eu_client/controller/OrderController.java</url>
-          <line>22</line>
+          <line>32</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

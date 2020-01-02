@@ -1,0 +1,21 @@
+server:
+  port: 8800
+#因为当前eureka单机，所以我们要做一些配置
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+     # defaultZone: http://localhost:${server.port}/eureka/
+      defaultZone: http://user:123@localhost:${server.port}/eureka/
+# 设置安全账号密码,就可以重新配置defaultZone，curl风格
+#如果想要去掉，则在启动类上面添加
+#
+#@EnableAutoConfiguration(exclude = {
+#		org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class
+#})
+spring:
+  security:
+    user:
+      name: user
+      password: 123

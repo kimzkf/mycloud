@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-@EnableEurekaClient
+@EnableEurekaClient//启用eureka客户端
 public class EuClientApplication {
 
     @Bean //相当于xml中的bean标签，主要是用于调用当前方法获取指定对象

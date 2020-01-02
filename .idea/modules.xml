@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/er_server/er_server.iml" filepath="$PROJECT_DIR$/er_server/er_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eu_client/eu_client.iml" filepath="$PROJECT_DIR$/eu_client/eu_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eu_server/eu_server.iml" filepath="$PROJECT_DIR$/eu_server/eu_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycloud.iml" filepath="$PROJECT_DIR$/mycloud.iml" />
     </modules>
   </component>

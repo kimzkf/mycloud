@@ -1,0 +1,13 @@
+server:
+  port: 8802
+
+spring:
+  application:
+     name: eu_client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8800/eureka/
+
+user:
+  url: http://user:123@localhost:8800/eureka/

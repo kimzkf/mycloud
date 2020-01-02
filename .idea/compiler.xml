@@ -7,16 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eu_server" />
+        <module name="eu_client" />
+        <module name="eureka" />
+        <module name="mycloud" />
         <module name="client" />
         <module name="server_eu" />
-        <module name="mycloud" />
-        <module name="eu_client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="eu_client" target="1.8" />
       <module name="eu_server" target="1.8" />
+      <module name="eureka" target="1.8" />
       <module name="mycloud" target="1.8" />
       <module name="server_eu" target="1.8" />
     </bytecodeTargetLevel>
@@ -26,6 +28,7 @@
       <module name="client" options="-parameters" />
       <module name="eu_client" options="-parameters" />
       <module name="eu_server" options="-parameters" />
+      <module name="eureka" options="-parameters" />
       <module name="mycloud" options="-parameters" />
       <module name="server_eu" options="-parameters" />
     </option>

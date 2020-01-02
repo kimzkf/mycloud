@@ -26,11 +26,18 @@ public class OrderController {
     public User showOrder(@PathVariable("id") String id){
 
         //根据配置别名，获取地址
-        InstanceInfo instanceInfo=euClient.getNextServerFromEureka("EU_SERVER",false);
+        InstanceInfo instanceInfo=euClient.getNextServerFromEureka("EUSERVER",false);
         String homeurl= instanceInfo.getHomePageUrl();
 
         //通过访问rest,获取json对象，转换为user对象
         User user = restTemplate.getForObject(homeurl+"/user/"+id, User.class);
+        return user;
+    }
+    @GetMapping("/ribbon/{id}")
+    public User ribbon(@PathVariable("id") String id){
+        //ribbon使用配置别名
+        //会请求别名一致的服务
+        User user = restTemplate.getForObject("http://euserver/user/"+id, User.class);
         return user;
     }
 }

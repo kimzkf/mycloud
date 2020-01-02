@@ -1,11 +1,17 @@
 server:
-  port: 8801
+  port: 8805
+
+spring:
+  application:
+     name: euserver
 eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123@localhost:8800/eureka/
+      # 注册地址
   instance:
     prefer-ip-address: true #在EUREKA中显示IP
-spring:
-  application:
-    name: euserver #别名
+
+
+user:
+  url: http://user:123@localhost:8800/eureka/

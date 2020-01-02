@@ -3,11 +3,12 @@ server:
 
 spring:
   application:
-     name: eu_client
+     name: euclient
 eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123@localhost:8800/eureka/
+      # 注册地址
 
 user:
   url: http://user:123@localhost:8800/eureka/

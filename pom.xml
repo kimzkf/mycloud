@@ -7,6 +7,7 @@
         <module>eu_server</module>
         <module>eu_client</module>
         <module>eureka</module>
+        <module>ribbon</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>

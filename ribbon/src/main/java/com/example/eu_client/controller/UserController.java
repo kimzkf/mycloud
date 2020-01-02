@@ -12,18 +12,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.Instant;
+import java.util.Date;
 
-@RestController
 @Slf4j
+@RestController
 public class UserController {
-    @Autowired
-    private EurekaClient euClient;
-
-    @GetMapping("/info")
-    public String info(){
-        InstanceInfo instanceInfo=euClient.getNextServerFromEureka("EUCLIENT",false);
-        return  instanceInfo.getHomePageUrl();
+    @GetMapping("/user/{id}")
+    public User showUser(@PathVariable("id") String id){
+        log.info(id+"8005");
+        return new User(id,"李四","小牛8805",new Date());
     }
-
-
 }

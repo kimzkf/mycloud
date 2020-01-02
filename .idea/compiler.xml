@@ -10,6 +10,7 @@
         <module name="eu_client" />
         <module name="eureka" />
         <module name="mycloud" />
+        <module name="ribbon" />
         <module name="client" />
         <module name="server_eu" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="eu_server" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="mycloud" target="1.8" />
+      <module name="ribbon" target="1.8" />
       <module name="server_eu" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,6 +32,7 @@
       <module name="eu_server" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="mycloud" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
       <module name="server_eu" options="-parameters" />
     </option>
   </component>

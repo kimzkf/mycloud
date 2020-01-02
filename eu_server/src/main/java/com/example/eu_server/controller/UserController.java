@@ -16,7 +16,7 @@ import java.util.Date;
 public class UserController {
     @GetMapping("/user/{id}")
     public User showUser(@PathVariable("id") String id){
-        log.info(id);
-        return new User(id,"李四","小牛",new Date());
+        log.info(id+"8001");
+        return new User(id,"李四","小牛8801",new Date());
     }
 }

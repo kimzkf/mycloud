@@ -8,13 +8,12 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>eu_client</artifactId>
+    <artifactId>ribbon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eu_client</name>
+    <name>ribbon</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

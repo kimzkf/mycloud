@@ -4,6 +4,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123@localhost:8800/eureka/
+  instance:
+    prefer-ip-address: true #在EUREKA中显示IP
 spring:
   application:
-    name: eu_server #别名
+    name: euserver #别名

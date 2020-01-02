@@ -7,8 +7,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:123@localhost:8800/eureka/
-      # 注册地址
+      defaultZone: http://user:123@localhost:8800/eureka/,http://user:123@localhost:8810/eureka/
+      # 注册地址,在两个注册中心注册
 
 user:
   url: http://user:123@localhost:8800/eureka/

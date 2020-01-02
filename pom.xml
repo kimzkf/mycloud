@@ -8,6 +8,7 @@
         <module>eu_client</module>
         <module>eureka</module>
         <module>ribbon</module>
+        <module>eureka02</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>

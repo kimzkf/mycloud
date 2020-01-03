@@ -77,7 +77,7 @@ public class UserController {
      * @param name
      * @return
      */
-    @HystrixCommand(fallbackMethod = "fallback")//错误之后执行方法
+    //@HystrixCommand(fallbackMethod = "fallback")//错误之后执行方法
     @RequestMapping("/feign")
     public String getOrders(){
         return  userFeign.show();

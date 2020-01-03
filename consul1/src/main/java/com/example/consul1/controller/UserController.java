@@ -1,10 +1,15 @@
 package com.example.consul1.controller;
 
 import com.example.consul1.feign.UserFeign;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import feign.Feign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.openfeign.support.FallbackCommand;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -72,8 +77,12 @@ public class UserController {
      * @param name
      * @return
      */
+    @HystrixCommand(fallbackMethod = "fallback")//错误之后执行方法
     @RequestMapping("/feign")
     public String getOrders(){
         return  userFeign.show();
+    }
+    public String fallback(){
+        return  "sorry!";
     }
 }

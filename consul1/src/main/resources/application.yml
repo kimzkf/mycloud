@@ -20,3 +20,9 @@ feign:
             default:
                 connectTimeout: 3000
                 readTimeout: 3000  #默认为60s
+
+    hystrix:
+        enabled: true #开启
+
+##hystrix 熔断器，禁止服务超时时间
+#hystrix:command:default:execution:timeout:enable:false

@@ -1,5 +1,7 @@
 package com.example.consul1.controller;
 
+import com.example.consul1.feign.UserFeign;
+import feign.Feign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -17,7 +19,8 @@ public class UserController {
     private RestTemplate restTemplate;
     @Autowired
     private DiscoveryClient discoveryClient;
-
+    @Autowired
+    private UserFeign userFeign;
     /**
      * 获取已经注册的服务
      * @return
@@ -62,5 +65,15 @@ public class UserController {
             return list.get(0).getUri().toString();
       }
        return  null;
+    }
+
+    /**
+     * 使用feign远程访问
+     * @param name
+     * @return
+     */
+    @RequestMapping("/feign")
+    public String getOrders(){
+        return  userFeign.show();
     }
 }

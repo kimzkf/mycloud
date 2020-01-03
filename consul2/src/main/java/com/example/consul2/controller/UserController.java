@@ -20,7 +20,9 @@ public class UserController {
 
 
    @RequestMapping("/order")
-    public String getOrder(){
+    public String getOrder() throws InterruptedException {
+       System.out.println("进入consul2");
+       Thread.sleep(100000);
          return "222";
     }
 }

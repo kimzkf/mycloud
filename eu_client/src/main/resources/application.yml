@@ -12,3 +12,4 @@ eureka:
 
 user:
   url: http://user:123@localhost:8800/eureka/
+

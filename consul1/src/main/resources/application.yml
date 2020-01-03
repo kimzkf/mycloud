@@ -11,4 +11,12 @@ spring:
             host: localhost
             discovery:
                 hostname: 127.0.0.1
-
+#重试机制
+#default为全局配置，如果要单独配置每个服务，改为服务名
+#默认为10s
+feign:
+    client:
+        config:
+            default:
+                connectTimeout: 3000
+                readTimeout: 3000  #默认为60s

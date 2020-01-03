@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>consul1</artifactId>
+    <artifactId>consul2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>consul1</name>
+    <name>consul2</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -44,11 +44,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <!--消费者是利用Feign通过注册中心来消费接口的,负载均衡-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 

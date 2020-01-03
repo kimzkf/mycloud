@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consul01" />
         <module name="eu_server" />
+        <module name="consul2" />
         <module name="eu_client" />
         <module name="eureka" />
         <module name="eureka02" />
@@ -22,6 +23,7 @@
       <module name="client" target="1.8" />
       <module name="consul01" target="1.8" />
       <module name="consul1" target="1.8" />
+      <module name="consul2" target="1.8" />
       <module name="consule1" target="1.8" />
       <module name="eu_client" target="1.8" />
       <module name="eu_server" target="1.8" />
@@ -37,6 +39,7 @@
       <module name="client" options="-parameters" />
       <module name="consul01" options="-parameters" />
       <module name="consul1" options="-parameters" />
+      <module name="consul2" options="-parameters" />
       <module name="consule1" options="-parameters" />
       <module name="eu_client" options="-parameters" />
       <module name="eu_server" options="-parameters" />

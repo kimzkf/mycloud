@@ -6,16 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consul01" />
+        <module name="client" />
+        <module name="consul1" />
         <module name="eu_server" />
         <module name="consul2" />
         <module name="eu_client" />
+        <module name="mygetway1" />
         <module name="eureka" />
         <module name="eureka02" />
         <module name="consule1" />
         <module name="ribbon" />
-        <module name="consul1" />
-        <module name="client" />
+        <module name="consul01" />
         <module name="server_eu" />
       </profile>
     </annotationProcessing>
@@ -30,6 +31,7 @@
       <module name="eureka" target="1.8" />
       <module name="eureka02" target="1.8" />
       <module name="mycloud" target="1.8" />
+      <module name="mygetway1" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="server_eu" target="1.8" />
     </bytecodeTargetLevel>
@@ -46,6 +48,7 @@
       <module name="eureka" options="-parameters" />
       <module name="eureka02" options="-parameters" />
       <module name="mycloud" options="-parameters" />
+      <module name="mygetway1" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="server_eu" options="-parameters" />
     </option>

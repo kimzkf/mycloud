@@ -25,3 +25,5 @@ spring:
               #默认为false，设为true 开启通过服务中心的自动根据serviceId创建路由的功能
 #访问http://localhost:8508/api-order/order
 #转到http://consul2/order
+
+

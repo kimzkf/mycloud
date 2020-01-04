@@ -1,0 +1,29 @@
+server:
+  port: 8509
+
+spring:
+  application:
+    name: properies
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        hostname: 127.0.0.1
+    #配置读取配置文件,,http://127.0.0.1:8509/master/application-dev.properties
+    config:
+      enabled: true
+      label: master
+      server:
+        git:
+          uri: https://github.com/kimzkf/mycloud.git
+          username: 842594235@qq.com
+          password: zhang951014kai
+          search-paths:
+          - dev  #版本
+
+
+
+
+
+

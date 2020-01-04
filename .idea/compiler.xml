@@ -16,6 +16,7 @@
         <module name="eureka02" />
         <module name="consule1" />
         <module name="ribbon" />
+        <module name="properties" />
         <module name="consul01" />
         <module name="server_eu" />
       </profile>
@@ -32,6 +33,7 @@
       <module name="eureka02" target="1.8" />
       <module name="mycloud" target="1.8" />
       <module name="mygetway1" target="1.8" />
+      <module name="properties" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="server_eu" target="1.8" />
     </bytecodeTargetLevel>
@@ -49,6 +51,7 @@
       <module name="eureka02" options="-parameters" />
       <module name="mycloud" options="-parameters" />
       <module name="mygetway1" options="-parameters" />
+      <module name="properties" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="server_eu" options="-parameters" />
     </option>

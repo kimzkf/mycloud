@@ -16,11 +16,13 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/kimzkf/mycloud.git
+          uri: https://github.com/kimzkf/mycloud
           username: 842594235@qq.com
           password: zhang951014kai
           search-paths:
-          - dev  #版本
+          consulmember  #扫描位置，如果在文件夹下，可以用member,order
+          force-pull: true #强制拉取
+          clone-on-start: true  #服务器在首次请求配置时克隆远程存储库
 
 
 

@@ -5,6 +5,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.ribbon.proxy.annotation.Hystrix;
 import feign.Feign;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
@@ -26,6 +27,8 @@ public class UserController {
     private DiscoveryClient discoveryClient;
     @Autowired
     private UserFeign userFeign;
+    @Value("${name:default}")//默认值
+    private String name;
     /**
      * 获取已经注册的服务
      * @return
@@ -84,5 +87,15 @@ public class UserController {
     }
     public String fallback(){
         return  "sorry!";
+    }
+
+    /**
+     * 获取配置服务器的配置
+     * @return
+     */
+
+    @RequestMapping("/config")
+    public String getConfig(){
+        return  name;
     }
 }

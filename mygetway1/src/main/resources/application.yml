@@ -14,13 +14,13 @@ spring:
       discovery:
         locator:
           enabled: true
-      routes:  #路由配置:参数为一个List
-      - id: api-order #唯一标识
-        uri: lb://consul2 #转发的地址,写服务名称
-        predicates:
-        - Path=/api-order/*  #判断匹配条件,即地址带有/api-order/*的请求,会转发至lb:consul2
-        filters:
-        - StripPrefix=1  #去掉path前缀,参数为1代表去掉/api-order
+    # routes:  #路由配置:参数为一个List
+    # - id: api-order #唯一标识
+    #   uri: lb://consul2 #转发的地址,写服务名称
+    #  predicates:
+    #   - Path=/api-order/*  #判断匹配条件,即地址带有/api-order/*的请求,会转发至lb:consul2
+    #   filters:
+    #   - StripPrefix=1  #去掉path前缀,参数为1代表去掉/api-order
               #是否与服务发现组件结合，通过serviceId转发到具体的服务实例
               #默认为false，设为true 开启通过服务中心的自动根据serviceId创建路由的功能
 #访问http://localhost:8508/api-order/order

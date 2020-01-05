@@ -1,0 +1,13 @@
+server:
+  port: 8511
+
+spring:
+  application:
+    name: consulswagger
+  #consul注册中心地址
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        hostname: 127.0.0.1

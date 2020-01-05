@@ -14,6 +14,7 @@
         <module name="consul1" />
         <module name="eu_client" />
         <module name="consule1" />
+        <module name="swaggerconsul" />
         <module name="properties" />
         <module name="eureka" />
         <module name="eu_server" />
@@ -37,6 +38,7 @@
       <module name="ribbon" target="1.8" />
       <module name="server_eu" target="1.8" />
       <module name="springcloud-config-git-commons" target="1.5" />
+      <module name="swaggerconsul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -55,6 +57,7 @@
       <module name="properties" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="server_eu" options="-parameters" />
+      <module name="swaggerconsul" options="-parameters" />
     </option>
   </component>
 </project>

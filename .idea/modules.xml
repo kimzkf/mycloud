@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/mygetway1/mygetway1.iml" filepath="$PROJECT_DIR$/mygetway1/mygetway1.iml" />
       <module fileurl="file://$PROJECT_DIR$/properties/properties.iml" filepath="$PROJECT_DIR$/properties/properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swaggerconsul/swaggerconsul.iml" filepath="$PROJECT_DIR$/swaggerconsul/swaggerconsul.iml" />
     </modules>
   </component>
 </project>

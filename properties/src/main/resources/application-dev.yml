@@ -7,10 +7,15 @@ spring:
         #healthCheckPath: ${management.contextPath}/health
         healthCheckPath: /health
         healthCheckInterval: 15s
-        instance-id: consul1
+        instance-id: properties
         enabled: true
       enabled: true
   application:
-    name: consul1
+    name: properties
+  zipkin:  #链路追踪
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
 server:
   port: 8510

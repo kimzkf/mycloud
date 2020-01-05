@@ -29,3 +29,5 @@ feign:
 #hystrix:command:default:execution:timeout:enable:false
 
 name: ymldefault
+swagger:
+    base-package: com.example.consul1.controller #配置扫描包

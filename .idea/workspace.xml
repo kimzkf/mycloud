@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb5e472-0b59-420b-a0d2-df53ea5ee59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/src/main/java/com/example/swaggerconsul/SwaggerconsulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/src/main/java/com/example/swaggerconsul/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/src/main/java/com/example/swaggerconsul/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swaggerconsul/src/test/java/com/example/swaggerconsul/SwaggerconsulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_spring4all_swagger_spring_boot_starter_1_7_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_8_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consul1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul1/src/main/java/com/example/consul1/Consul1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consul1/src/main/java/com/example/consul1/Consul1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consul1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mygetway1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mygetway1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mygetway1/src/main/java/com/getway/mygetway1/Mygetway1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/mygetway1/src/main/java/com/getway/mygetway1/Mygetway1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mygetway1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mygetway1/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +88,7 @@
       <recent name="E:\idea_del\mycloud\consul01\src\main\java\com\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SwaggerconsulApplication">
+  <component name="RunManager" selected="Spring Boot.Consul1Application">
     <configuration name="EuClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.eu_client.EuClientApplication" />
       <module name="eu_client" />
@@ -256,7 +233,7 @@
       <workItem from="1577960489813" duration="2740000" />
       <workItem from="1578013155259" duration="22628000" />
       <workItem from="1578117022612" duration="23130000" />
-      <workItem from="1578154552344" duration="17346000" />
+      <workItem from="1578154552344" duration="20047000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1577931106475</created>
@@ -391,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578221734441</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="swagger--接口工具">
+      <created>1578223880469</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578223880469</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +436,8 @@
     <MESSAGE value="config" />
     <MESSAGE value="config--consul配置中心" />
     <MESSAGE value="zipkin--链路追踪" />
-    <option name="LAST_COMMIT_MESSAGE" value="zipkin--链路追踪" />
+    <MESSAGE value="swagger--接口工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger--接口工具" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="49" key="#EuServerApplication" timestamp="1577949045106">
@@ -475,10 +460,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578139373525" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1578140327919">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1578226625821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578140327919" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578226625821" />
     <state x="390" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577877689113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -491,10 +476,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578031895041" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1578221732784">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1578223878011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578221732784" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578223878011" />
     <state width="441" height="466" key="DebuggerActiveHint" timestamp="1577891507740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -515,38 +500,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="392" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577930854071" />
-    <state width="1493" height="405" key="GridCell.Tab.0.bottom" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.0.bottom" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.0.center" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578226050213" />
+    <state width="1493" height="280" key="GridCell.Tab.0.center" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.0.left" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578226050212" />
+    <state width="1493" height="280" key="GridCell.Tab.0.left" timestamp="1578226050212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.0.right" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578226050212" />
+    <state width="1493" height="280" key="GridCell.Tab.0.right" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.1.bottom" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578226050213" />
+    <state width="1493" height="280" key="GridCell.Tab.1.bottom" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.1.center" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578226050213" />
+    <state width="1493" height="280" key="GridCell.Tab.1.center" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.1.left" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578226050213" />
+    <state width="1493" height="280" key="GridCell.Tab.1.left" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
-    <state width="1493" height="405" key="GridCell.Tab.1.right" timestamp="1578223283317">
+    <state width="1493" height="280" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578226050213" />
+    <state width="1493" height="280" key="GridCell.Tab.1.right" timestamp="1578226050213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="405" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578223283317" />
+    <state width="1493" height="280" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578226050213" />
     <state width="1493" height="237" key="GridCell.Tab.2.bottom" timestamp="1578047413326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -571,10 +556,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578209526703" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578221737849">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578223886364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578221737849" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578223886364" />
     <state x="403" y="147" key="VcsDiffUtil.ChangesDialog" timestamp="1578144578939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

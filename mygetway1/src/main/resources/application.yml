@@ -27,3 +27,5 @@ spring:
 #转到http://consul2/order
 
 
+swagger:
+  base-package: com.getway.mygetway1

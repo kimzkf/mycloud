@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
-        <module name="consul1" />
-        <module name="eu_server" />
-        <module name="consul2" />
-        <module name="eu_client" />
-        <module name="mygetway1" />
-        <module name="eureka" />
-        <module name="eureka02" />
-        <module name="consule1" />
         <module name="ribbon" />
-        <module name="properties" />
-        <module name="consul01" />
+        <module name="eureka02" />
+        <module name="client" />
         <module name="server_eu" />
+        <module name="consul2" />
+        <module name="consul1" />
+        <module name="eu_client" />
+        <module name="consule1" />
+        <module name="properties" />
+        <module name="eureka" />
+        <module name="eu_server" />
+        <module name="mygetway1" />
+        <module name="consul01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +36,7 @@
       <module name="properties" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="server_eu" target="1.8" />
+      <module name="springcloud-config-git-commons" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

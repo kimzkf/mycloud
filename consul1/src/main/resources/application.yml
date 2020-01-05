@@ -11,11 +11,7 @@ spring:
             host: localhost
             discovery:
                 hostname: 127.0.0.1
-        #配置中心服务器
-        config:
-            label: master
-            profile: dev
-            uri: http://127.0.0.1:8509/
+
 #重试机制
 #default为全局配置，如果要单独配置每个服务，改为服务名
 #默认为10s

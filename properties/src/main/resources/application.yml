@@ -1,31 +1,3 @@
-server:
-  port: 8509
-
 spring:
-  application:
-    name: properies
-  cloud:
-    consul:
-      port: 8500
-      host: localhost
-      discovery:
-        hostname: 127.0.0.1
-    #配置读取配置文件,,http://127.0.0.1:8509/master/application-dev.properties
-    config:
-      enabled: true
-      label: master
-      server:
-        git:
-          uri: https://github.com/kimzkf/mycloud
-          username: 842594235@qq.com
-          password: zhang951014kai
-          search-paths:
-          consulmember  #扫描位置，如果在文件夹下，可以用member,order
-          force-pull: true #强制拉取
-          clone-on-start: true  #服务器在首次请求配置时克隆远程存储库
-
-
-
-
-
-
+  profiles:
+    active: dev

@@ -77,7 +77,6 @@ public class UserController {
 
     /**
      * 使用feign远程访问
-     * @param name
      * @return
      */
     //@HystrixCommand(fallbackMethod = "fallback")//错误之后执行方法
@@ -93,7 +92,6 @@ public class UserController {
      * 获取配置服务器的配置
      * @return
      */
-
     @RequestMapping("/config")
     public String getConfig(){
         return  name;

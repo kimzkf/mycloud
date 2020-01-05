@@ -40,14 +40,14 @@ public class Mygetway1Application {
     @Component
     @Primary
     class DocumentationConfig implements SwaggerResourcesProvider{
-        @overide
+        @Override
         public List<SwaggerResource> get(){
             List resources=new ArrayList();
-            resources.add(swaggerResource("会员服务"，"/api-member/v2/api-docs","0.1"));
-            resources.add(swaggerResource("订单服务"，"/api-order/v2/api-docs","0.1"));
+            resources.add(swaggerResource("会员服务","/api-member/v2/api-docs","0.1"));
+            resources.add(swaggerResource("订单服务","/api-order/v2/api-docs","0.1"));
             return resources;
         }
-        private SwaggerResource swaggerResource(Strign name,String location,String version){
+        private SwaggerResource swaggerResource(String name,String location,String version){
             SwaggerResource swaggerResource=new SwaggerResource();
             swaggerResource.setName(name);
             swaggerResource.setLocation(location);

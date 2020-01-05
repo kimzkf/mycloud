@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb5e472-0b59-420b-a0d2-df53ea5ee59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_spring4all_swagger_spring_boot_starter_1_7_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_8_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consul1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul1/src/main/java/com/example/consul1/Consul1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consul1/src/main/java/com/example/consul1/Consul1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consul1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mygetway1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mygetway1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mygetway1/src/main/java/com/getway/mygetway1/Mygetway1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/mygetway1/src/main/java/com/getway/mygetway1/Mygetway1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mygetway1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mygetway1/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +226,7 @@
       <workItem from="1577960489813" duration="2740000" />
       <workItem from="1578013155259" duration="22628000" />
       <workItem from="1578117022612" duration="23130000" />
-      <workItem from="1578154552344" duration="20047000" />
+      <workItem from="1578154552344" duration="20270000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1577931106475</created>
@@ -375,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578223880469</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="swagger集成在网关中">
+      <created>1578227155941</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578227155941</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +437,8 @@
     <MESSAGE value="config--consul配置中心" />
     <MESSAGE value="zipkin--链路追踪" />
     <MESSAGE value="swagger--接口工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="swagger--接口工具" />
+    <MESSAGE value="swagger集成在网关中" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger集成在网关中" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="49" key="#EuServerApplication" timestamp="1577949045106">
@@ -476,10 +477,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578031895041" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1578223878011">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1578227153565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578223878011" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578227153565" />
     <state width="441" height="466" key="DebuggerActiveHint" timestamp="1577891507740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
